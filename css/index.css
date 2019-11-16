@@ -1,0 +1,242 @@
+body {
+	overflow-x: hidden;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	background: url('../img/dog1.png') no-repeat;
+background-size: contain;
+	background-position: center;
+	background-color: #f7fbfe;
+	height: 100vh;
+	width: 100%;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+}
+.menu div {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.buy {
+	max-height: 25px;
+	width: 200px;
+	background-color: #bb8966;
+	color: white;
+	font-family: Comfortaa, sans-serif;
+	text-align: center;
+	padding: 14.5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	box-shadow: 1px 1px 6px -3px black;
+}
+.pstore, .astore {
+	height: 45px;
+	margin: 0 10px;
+}
+.logo {
+	height: 200px;
+}
+h1 {
+	font-family: Comfortaa, sans-serif;
+	font-size: 2.5em;
+	width: 65%;
+	text-align: center;
+	padding-top: 50px;
+	color: #bb8966;
+}
+header > a {
+	background-color: #ffcb9d;
+	width: 100%;
+	height: 75px;
+	position: absolute;
+	bottom: 0;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	box-shadow: 1px -9px 10px -13px black;
+	color: #bb8966;
+	font-family: Comfortaa, sans-serif;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	text-decoration: none;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 80vh;
+	background-color: #f7fbfe;
+}
+main > div:nth-child(1) {
+	background-color: #ffcb9d;
+	display: flex;
+	min-height: 80vh;
+	padding-top: 50px;
+	box-shadow: 1px 1px 6px -3px black;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}   
+.content-1, .content-2 {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #bb8966;
+	font-family: Comfortaa, sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0 25px;
+	font-weight: bold;
+}
+.content-1 p {
+	padding-left: 10%;
+}
+.content-2 p {
+	padding: 25px 10% 10px 0;
+}
+.content-1 img{
+	transform: rotate(-17deg);
+	width: 60%;
+}
+.content-2 img {
+	transform: rotate(13deg);
+}
+.content-3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 75px 10%;
+}
+.phone {
+	flex: 1;
+}
+.top-bar {
+	box-shadow: 0px 7px 13px -2px black;
+}
+.app-menu {
+	position: absolute;
+	left: 2%;
+	top: 2%;
+	border: none;
+	background: none;
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+}
+.app-menu img {
+	width: 100%;
+}
+.app-menu:focus {
+	outline: none;
+}
+.logo-mini {
+	margin: 5%;
+	height: 100px;
+	position: absolute;
+	top: 5%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.app-header {
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	padding: 0 5% 10px 5%;
+	color: #bb8966;
+	width: 90%;
+	margin-top: 150px;
+}
+.app-header p:nth-child(1) {
+	font-size: 1.3em;
+	padding-bottom: 10px;
+}
+.app-header p:nth-child(2) {
+	font-size: 1.2em;
+}
+.app-header p:nth-child(3) {
+	font-size: 1em;
+	color: #e26e6e;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.app-header p:nth-child(4) {
+	text-align: left;
+	font-size: 1em;
+	padding-bottom: 10px;
+}
+.screen > div:nth-child(4) {
+	box-shadow: 0px 0px 6px 0px lightgrey;
+	border-radius: 5px;
+	margin: 0 5%;
+	height: 180px;
+}
+.table-inside {
+	display: flex;
+	align-items: center;
+	height: 80%;
+}
+.photo-mini {
+	width: 90px;
+	height: 90px;
+	margin-left: 5%;
+}
+table {
+	text-align: left;
+	font-family: Roboto, sans-serif;
+	font-size: 0.9em;
+	color: darkgray;
+}
+th {
+	font-weight: bold;
+	padding: 3px;
+	color: #82d3ff;
+}
+.map {
+	text-align: center;
+	color: #e26e6e;
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+}
+.about {
+   flex: 1;
+   color: #82d3ff;
+   font-family: Comfortaa, sans-serif;
+   font-size: 1.5em;
+   text-align: center;
+   font-weight: bold;
+}
+.about p {
+   padding: 25px;
+
+}
+footer {
+	background: url('../img/bg.png') repeat;
+	background-size: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 200px;
+	font-family: Comfortaa, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: black;
+	background-color: #f7fbfe;
+}
+footer a img{
+	height: 100px;
+	margin-bottom: 15px;
+}
